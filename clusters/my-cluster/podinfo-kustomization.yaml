@@ -15,12 +15,4 @@ spec:
   targetNamespace: default
   timeout: 3m0s
   wait: true
-  patchesStrategicMerge:
-    - |-
-      apiVersion: autoscaling/v2
-      kind: HorizontalPodAutoscaler
-      metadata:
-        name: podinfo
-      spec:
-        minReplicas: 3
 
