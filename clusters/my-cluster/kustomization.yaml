@@ -5,4 +5,5 @@ resources:
 - podinfo-deployment.yaml
 - podinfo-policy.yaml
 - podinfo-registry.yaml
+- flux-system/
 
